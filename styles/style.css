@@ -47,7 +47,9 @@ a{
     width: 450px;
     height: 428px;
 }
-
+.player-banner:hover{ 
+    transform: translateX(50px);
+}
 .player-list{
     display: grid;
     grid-template-columns: repeat(3,1fr);
